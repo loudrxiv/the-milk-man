@@ -1,0 +1,270 @@
+[34m[1mwandb[0m: wandb.init() called while a run is active and reinit is set to 'default', so returning the previous run.
+run id tv9s846j
+run name ghastly-mummy-1
+start a new run!!!
+using dispersion model /net/talisker/home/benos/mae117/.cache/scprinter/dispersion_model_py_v2.h5
+/net/talisker/home/benos/mae117/.conda/envs/tmm/lib/python3.11/site-packages/scprinter/seq/scripts/seq2print_lora_train.py:148: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  summits["index"] = np.arange(len(summits))
+           0    summits   index
+0       chr1     817350       0
+1       chr1     826920       1
+2       chr1     827537       2
+3       chr1     829000       3
+4       chr1     844161       4
+...      ...        ...     ...
+296064  chrX  155768668  296064
+296065  chrX  155820303  296065
+296066  chrX  155841526  296066
+296067  chrX  155881273  296067
+296068  chrX  155972677  296068
+
+[296069 rows x 3 columns]
+dna_len 1840
+total params - pretrained model 11756644
+output len 800
+dna len 1840
+input summits 210495
+validating loci: 100%|█████████████| 210495/210495 [00:00<00:00, 3382358.09it/s]
+valid summits after trimming edges 210495
+fetching coverage: 100%|█████████████| 210495/210495 [00:16<00:00, 12957.39it/s]
+(210495, 1)
+coverage min max 0.0 3256.0
+valid summits after min/max count filter 210495
+Caching sequences: 100%|██████████████| 210495/210495 [01:38<00:00, 2137.42it/s]
+input summits 64984
+validating loci: 100%|███████████████| 64984/64984 [00:00<00:00, 3104428.93it/s]
+valid summits after trimming edges 64984
+fetching coverage: 100%|███████████████| 64984/64984 [00:05<00:00, 12765.26it/s]
+(64984, 1)
+coverage min max 0.0 2962.0
+valid summits after min/max count filter 64984
+Caching sequences: 100%|████████████████| 64984/64984 [00:27<00:00, 2348.92it/s]
+input summits 20590
+validating loci: 100%|███████████████| 20590/20590 [00:00<00:00, 3183335.89it/s]
+valid summits after trimming edges 20590
+fetching coverage: 100%|███████████████| 20590/20590 [00:01<00:00, 12624.06it/s]
+(20590, 1)
+coverage min max 0.0 3201.0
+valid summits after min/max count filter 20590
+Caching sequences: 100%|████████████████| 20590/20590 [00:09<00:00, 2101.23it/s]
+coverage cutoff 10 2563.765000000276
+/net/talisker/home/benos/mae117/.conda/envs/tmm/lib/python3.11/site-packages/torch/utils/data/dataloader.py:617: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+                                                                                
+before training 5.191973122469897 -0.02757801754429267 -0.025867672174446965 -0.30481776483294265
+model
+seq2PRINT(
+  (dna_cnn_model): DNA_CNN(
+    (conv): Conv1dWrapper(
+      (conv): Conv1d(4, 1024, kernel_size=(21,), stride=(1,), padding=(10,))
+    )
+    (activation): ReLU()
+  )
+  (hidden_layer_model): DilatedCNN(
+    (activation): GELU(approximate='none')
+    (layers): ModuleList(
+      (0): Residual(
+        (module): ConvBlockModule(
+          (activation): GELU(approximate='none')
+          (conv1): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(3,), stride=(1,), padding=(2,), dilation=(2,), groups=8, bias=False)
+          )
+          (block1): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+          (conv2): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(1,), stride=(1,), bias=False)
+          )
+          (block2): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+        )
+      )
+      (1): Residual(
+        (module): ConvBlockModule(
+          (activation): GELU(approximate='none')
+          (conv1): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(3,), stride=(1,), padding=(4,), dilation=(4,), groups=8, bias=False)
+          )
+          (block1): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+          (conv2): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(1,), stride=(1,), bias=False)
+          )
+          (block2): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+        )
+      )
+      (2): Residual(
+        (module): ConvBlockModule(
+          (activation): GELU(approximate='none')
+          (conv1): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(3,), stride=(1,), padding=(8,), dilation=(8,), groups=8, bias=False)
+          )
+          (block1): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+          (conv2): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(1,), stride=(1,), bias=False)
+          )
+          (block2): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+        )
+      )
+      (3): Residual(
+        (module): ConvBlockModule(
+          (activation): GELU(approximate='none')
+          (conv1): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(3,), stride=(1,), padding=(16,), dilation=(16,), groups=8, bias=False)
+          )
+          (block1): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+          (conv2): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(1,), stride=(1,), bias=False)
+          )
+          (block2): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+        )
+      )
+      (4): Residual(
+        (module): ConvBlockModule(
+          (activation): GELU(approximate='none')
+          (conv1): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(3,), stride=(1,), padding=(32,), dilation=(32,), groups=8, bias=False)
+          )
+          (block1): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+          (conv2): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(1,), stride=(1,), bias=False)
+          )
+          (block2): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+        )
+      )
+      (5): Residual(
+        (module): ConvBlockModule(
+          (activation): GELU(approximate='none')
+          (conv1): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(3,), stride=(1,), padding=(64,), dilation=(64,), groups=8, bias=False)
+          )
+          (block1): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+          (conv2): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(1,), stride=(1,), bias=False)
+          )
+          (block2): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+        )
+      )
+      (6): Residual(
+        (module): ConvBlockModule(
+          (activation): GELU(approximate='none')
+          (conv1): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(3,), stride=(1,), padding=(128,), dilation=(128,), groups=8, bias=False)
+          )
+          (block1): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+          (conv2): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(1,), stride=(1,), bias=False)
+          )
+          (block2): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+        )
+      )
+      (7): Residual(
+        (module): ConvBlockModule(
+          (activation): GELU(approximate='none')
+          (conv1): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(3,), stride=(1,), padding=(256,), dilation=(256,), groups=8, bias=False)
+          )
+          (block1): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+          (conv2): Conv1dWrapper(
+            (conv): Conv1d(1024, 1024, kernel_size=(1,), stride=(1,), bias=False)
+          )
+          (block2): Sequential(
+            (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+            (1): GELU(approximate='none')
+          )
+        )
+      )
+    )
+  )
+  (profile_cnn_model): Footprints_head(
+    (conv_layer): Conv1dWrapper(
+      (conv): Conv1d(1024, 99, kernel_size=(1,), stride=(1,))
+    )
+    (linear): Conv1dWrapper(
+      (conv): Conv1d(1024, 1, kernel_size=(1,), stride=(1,))
+    )
+  )
+)
+total trainable params 11756644
+total params 11756644
+update after step 100
+before training 5.190677807248872 -0.02757990182075233 -0.025868593187263065 -0.3062778064998818
+Using amp
+trainable params in total 11756644
+  warnings.warn(
+ - (Training) 4 Footprint Loss: 1.60 Coverage Loss: 0.60:  81%|▊| 1704/2099 [06:
+ - (Training) 1 Loss: 1.78
+ - (Validation) 1                         Loss: 1.60043
+Profile pearson 0.3228695780757543
+Across peak pearson fp 0.4092129018245894
+Across peak pearson cov 0.5406166744952321
+ - (Validation) 1                 Loss: 1.74739
+EMA Profile pearson 0.30795761998661014
+EMA Across peak pearson fp 0.3602476246788652
+EMA Across peak pearson cov 0.4818545274229899
+best loss 1.7473865788558434
+ - (Training) 2 Loss: 1.59
+ - (Validation) 2                         Loss: 1.56146
+Profile pearson 0.349469193325488
+Across peak pearson fp 0.4341866264112018
+Across peak pearson cov 0.5898409247520804
+ - (Validation) 2                 Loss: 1.69408
+EMA Profile pearson 0.3345611487618671
+EMA Across peak pearson fp 0.4019846300601055
+EMA Across peak pearson cov 0.5585126879282142
+best loss 1.6940786063377493
+ - (Training) 3 Loss: 1.54
+ - (Validation) 3                         Loss: 1.51059
+Profile pearson 0.3590457984447589
+Across peak pearson fp 0.45586515997239596
+Across peak pearson cov 0.6416654919496346
+ - (Validation) 3                 Loss: 1.66031
+EMA Profile pearson 0.3450937664226847
+EMA Across peak pearson fp 0.4191282735293877
+EMA Across peak pearson cov 0.5846684296321812
+best loss 1.6603078994844935

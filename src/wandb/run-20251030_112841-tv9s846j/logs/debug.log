@@ -1,0 +1,21 @@
+2025-10-30 11:28:41,369 INFO    MainThread:48712 [wandb_setup.py:_flush():81] Current SDK version is 0.22.2
+2025-10-30 11:28:41,369 INFO    MainThread:48712 [wandb_setup.py:_flush():81] Configure stats pid to 48712
+2025-10-30 11:28:41,369 INFO    MainThread:48712 [wandb_setup.py:_flush():81] Loading settings from /net/talisker/home/benos/mae117/.config/wandb/settings
+2025-10-30 11:28:41,369 INFO    MainThread:48712 [wandb_setup.py:_flush():81] Loading settings from /net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/src/wandb/settings
+2025-10-30 11:28:41,369 INFO    MainThread:48712 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-30 11:28:41,369 INFO    MainThread:48712 [wandb_init.py:setup_run_log_directory():705] Logging user logs to /net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/src/wandb/run-20251030_112841-tv9s846j/logs/debug.log
+2025-10-30 11:28:41,370 INFO    MainThread:48712 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to /net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/src/wandb/run-20251030_112841-tv9s846j/logs/debug-internal.log
+2025-10-30 11:28:41,370 INFO    MainThread:48712 [wandb_init.py:init():832] calling init triggers
+2025-10-30 11:28:41,370 INFO    MainThread:48712 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'peaks': 'seq2print_cleaned_narrowPeak.bed', 'signals': 'PBMC_bulkATAC_scprinter_supp/Bcell_0.bw', 'genome': 'hg38', 'split': {'test': ['chr1', 'chr3', 'chr6'], 'valid': ['chr8', 'chr20'], 'train': ['chr2', 'chr4', 'chr5', 'chr7', 'chr9', 'chr10', 'chr11', 'chr12', 'chr13', 'chr14', 'chr15', 'chr16', 'chr17', 'chr18', 'chr19', 'chr21', 'chr22', 'chrX', 'chrY']}, 'max_jitter': 128, 'reverse_compliment': True, 'n_filters': 1024, 'bottleneck_factor': 1, 'no_inception': False, 'groups': 8, 'n_layers': 8, 'n_inception_layers': 8, 'inception_layers_after': True, 'inception_version': 2, 'activation': 'gelu', 'batch_norm_momentum': 0.1, 'dilation_base': 1, 'rezero': False, 'batch_norm': True, 'batch_size': 64, 'head_kernel_size': 1, 'kernel_size': 3, 'weight_decay': 0.001, 'lr': 0.003, 'scheduler': False, 'savename': 'PBMC_bulkATAC_Bcell_0_fold0', 'amp': True, 'ema': True, 'notes': 'v3', 'tags': ['PBMC_bulkATAC', 'Bcell_0', 'fold0'], 'data_dir': '/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print', 'temp_dir': '/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print/temp', 'model_dir': '/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print/model', 'config_path': '/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print/configs/PBMC_bulkATAC_Bcell_0_fold0.JSON', '_wandb': {}}
+2025-10-30 11:28:41,370 INFO    MainThread:48712 [wandb_init.py:init():880] starting backend
+2025-10-30 11:28:41,873 INFO    MainThread:48712 [wandb_init.py:init():883] sending inform_init request
+2025-10-30 11:28:41,915 INFO    MainThread:48712 [wandb_init.py:init():891] backend started and connected
+2025-10-30 11:28:41,918 INFO    MainThread:48712 [wandb_init.py:init():961] updated telemetry
+2025-10-30 11:28:41,933 INFO    MainThread:48712 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-10-30 11:28:42,545 INFO    MainThread:48712 [wandb_init.py:init():1036] starting run threads in backend
+2025-10-30 11:28:42,724 INFO    MainThread:48712 [wandb_run.py:_console_start():2509] atexit reg
+2025-10-30 11:28:42,724 INFO    MainThread:48712 [wandb_run.py:_redirect():2357] redirect: wrap_raw
+2025-10-30 11:28:42,724 INFO    MainThread:48712 [wandb_run.py:_redirect():2426] Wrapping output streams.
+2025-10-30 11:28:42,724 INFO    MainThread:48712 [wandb_run.py:_redirect():2449] Redirects installed.
+2025-10-30 11:28:42,738 INFO    MainThread:48712 [wandb_init.py:init():1076] run started, returning control to user process

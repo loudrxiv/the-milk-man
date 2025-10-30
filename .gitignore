@@ -23,3 +23,15 @@ data/SRR33155816
 data/SRR33155818
 data/SRR33155820
 data/SRR33155822
+
+# bovine implementations
+data/custom_genomes
+data/bias.bw
+data/bias.h5
+peaks
+profiles
+
+
+# Tutorial stuff
+fragments
+seq2print

@@ -1,0 +1,51 @@
+{
+  "os": "Linux-5.15.0-152-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.14",
+  "startedAt": "2025-10-30T15:28:41.345231Z",
+  "args": [
+    "--config",
+    "/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print/configs/PBMC_bulkATAC_Bcell_0_fold0.JSON",
+    "--temp_dir",
+    "/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print/temp",
+    "--model_dir",
+    "/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print/model",
+    "--data_dir",
+    "/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print",
+    "--project",
+    "scPrinter_seq_PBMC_bulkATAC",
+    "--enable_wandb"
+  ],
+  "program": "/net/talisker/home/benos/mae117/.conda/envs/tmm/bin/seq2print_train",
+  "git": {
+    "remote": "https://github.com/loudrxiv/the-milk-man.git",
+    "commit": "b9ba2bcb0d4617e5dd84baddb9c7a294ad2d8591"
+  },
+  "email": "mebeid1@umbc.edu",
+  "root": "/net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/src",
+  "host": "g023",
+  "executable": "/net/talisker/home/benos/mae117/.conda/envs/tmm/bin/python3",
+  "cpu_count": 64,
+  "cpu_count_logical": 64,
+  "gpu": "NVIDIA L40",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "471413596160",
+      "used": "29311791104"
+    }
+  },
+  "memory": {
+    "total": "811320672256"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA L40",
+      "memoryTotal": "48305799168",
+      "cudaCores": 18176,
+      "architecture": "Ada",
+      "uuid": "GPU-6bf5f664-0f59-29f6-ca7b-e05c91f43f3e"
+    }
+  ],
+  "cudaVersion": "12.9",
+  "writerId": "k2b5k21ypfcrt6mgx1isnowucupm9h8t"
+}
