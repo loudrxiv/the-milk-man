@@ -13,3 +13,33 @@ We use publicly available data to do this, find it [here](https://www.ncbi.nlm.n
 ## Method
 
 We use [scPrinter](https://github.com/buenrostrolab/scPrinter/tree/main); this is primarily so I can really do through the whole pipeline with it because I am curious.
+
+## Some of my findings...
+
+> Rendered slide images exported from PowerPoint
+
+<p align="center">
+<img src="imgs/slides/Slide1.png" width="85%">
+</p>
+<p align="center">
+<img src="imgs/slides/Slide2.png" width="85%">
+</p>
+<p align="center">
+<img src="imgs/slides/Slide3.png" width="85%">
+</p>
+### <a name="Slide4"></a>CSN2
+<p align="center">
+<img src="imgs/slides/Slide4.png" width="85%">
+</p>
+### <a name="Slide5"></a>ACACA
+<p align="center">
+<img src="imgs/slides/Slide5.png" width="85%">
+</p>
+### <a name="Slide6"></a>PPARGC1A
+<p align="center">
+<img src="imgs/slides/Slide6.png" width="85%">
+</p>
+### <a name="Slide7"></a>XDH
+<p align="center">
+<img src="imgs/slides/Slide7.png" width="85%">
+</p>

@@ -237,7 +237,7 @@ before training 5.190677807248872 -0.02757990182075233 -0.025868593187263065 -0.
 Using amp
 trainable params in total 11756644
   warnings.warn(
- - (Training) 4 Footprint Loss: 1.60 Coverage Loss: 0.60:  81%|▊| 1704/2099 [06:
+                                                                                
  - (Training) 1 Loss: 1.78
  - (Validation) 1                         Loss: 1.60043
 Profile pearson 0.3228695780757543
@@ -268,3 +268,246 @@ EMA Profile pearson 0.3450937664226847
 EMA Across peak pearson fp 0.4191282735293877
 EMA Across peak pearson cov 0.5846684296321812
 best loss 1.6603078994844935
+ - (Training) 4 Loss: 1.50
+ - (Validation) 4                         Loss: 1.49143
+Profile pearson 0.3447642888831049
+Across peak pearson fp 0.4570329900514935
+Across peak pearson cov 0.6541588700329521
+ - (Validation) 4                 Loss: 1.62425
+EMA Profile pearson 0.35243054187227096
+EMA Across peak pearson fp 0.4330888269275664
+EMA Across peak pearson cov 0.5999198439115198
+best loss 1.624249591615987
+ - (Training) 5 Loss: 1.47
+ - (Validation) 5                         Loss: 1.47507
+Profile pearson 0.3589834259842052
+Across peak pearson fp 0.4694787537221696
+Across peak pearson cov 0.662905551685271
+ - (Validation) 5                 Loss: 1.58413
+EMA Profile pearson 0.3579779541982011
+EMA Across peak pearson fp 0.44533188799322493
+EMA Across peak pearson cov 0.6114422911619865
+best loss 1.5841343109243609
+ - (Training) 6 Loss: 1.46
+ - (Validation) 6                         Loss: 1.46892
+Profile pearson 0.3602077383612602
+Across peak pearson fp 0.47123797277184115
+Across peak pearson cov 0.6792731129295401
+ - (Validation) 6                 Loss: 1.55130
+EMA Profile pearson 0.35899252185781855
+EMA Across peak pearson fp 0.4533996603251468
+EMA Across peak pearson cov 0.6231179718851035
+best loss 1.5512969934294376
+ - (Training) 7 Loss: 1.44
+ - (Validation) 7                         Loss: 1.46375
+Profile pearson 0.3515171090997563
+Across peak pearson fp 0.46760164018251227
+Across peak pearson cov 0.6182143778091653
+ - (Validation) 7                 Loss: 1.52036
+EMA Profile pearson 0.3627895018988099
+EMA Across peak pearson fp 0.46249389737012064
+EMA Across peak pearson cov 0.639876418303478
+best loss 1.5203620671051477
+ - (Training) 8 Loss: 1.42
+ - (Validation) 8                         Loss: 1.45130
+Profile pearson 0.3607853903352723
+Across peak pearson fp 0.48091032958362656
+Across peak pearson cov 0.69355487957996
+ - (Validation) 8                 Loss: 1.49887
+EMA Profile pearson 0.3629405216164431
+EMA Across peak pearson fp 0.46762583867424595
+EMA Across peak pearson cov 0.6523843770838241
+best loss 1.4988689134860862
+ - (Training) 9 Loss: 1.41
+ - (Validation) 9                         Loss: 1.46439
+Profile pearson 0.3288619981009362
+Across peak pearson fp 0.4593518320234474
+Across peak pearson cov 0.6170631031698076
+ - (Validation) 9                 Loss: 1.48328
+EMA Profile pearson 0.3636775295634659
+EMA Across peak pearson fp 0.472012152118391
+EMA Across peak pearson cov 0.6625859032685572
+best loss 1.4832771382308358
+ - (Training) 10 Loss: 1.40
+ - (Validation) 10                         Loss: 1.45322
+Profile pearson 0.36357918111888
+Across peak pearson fp 0.4782319940822592
+Across peak pearson cov 0.7004850174910863
+ - (Validation) 10                 Loss: 1.47031
+EMA Profile pearson 0.36406306851598125
+EMA Across peak pearson fp 0.4752440667813364
+EMA Across peak pearson cov 0.6709924610897817
+best loss 1.4703071775107548
+ - (Training) 11 Loss: 1.39
+ - (Validation) 11                         Loss: 1.45437
+Profile pearson 0.37518485895390963
+Across peak pearson fp 0.4857864529677398
+Across peak pearson cov 0.70799604841785
+ - (Validation) 11                 Loss: 1.45963
+EMA Profile pearson 0.36414720097494857
+EMA Across peak pearson fp 0.477902299622334
+EMA Across peak pearson cov 0.6789090458144239
+best loss 1.459629286686188
+ - (Training) 12 Loss: 1.38
+ - (Validation) 12                         Loss: 1.45725
+Profile pearson 0.37547750096078997
+Across peak pearson fp 0.48474520924838677
+Across peak pearson cov 0.7018223954332251
+ - (Validation) 12                 Loss: 1.45182
+EMA Profile pearson 0.3637827779104331
+EMA Across peak pearson fp 0.47986883794962015
+EMA Across peak pearson cov 0.6854287420188998
+best loss 1.4518240884019824
+ - (Training) 13 Loss: 1.37
+ - (Validation) 13                         Loss: 1.44675
+Profile pearson 0.35274453034192627
+Across peak pearson fp 0.47683204370036725
+Across peak pearson cov 0.7113976798300065
+ - (Validation) 13                 Loss: 1.44578
+EMA Profile pearson 0.3641663736569256
+EMA Across peak pearson fp 0.4815474819961431
+EMA Across peak pearson cov 0.6910953466846519
+best loss 1.44577652950005
+ - (Training) 14 Loss: 1.36
+ - (Validation) 14                         Loss: 1.44626
+Profile pearson 0.3553823643302374
+Across peak pearson fp 0.48171430508629626
+Across peak pearson cov 0.7187189063158748
+ - (Validation) 14                 Loss: 1.44167
+EMA Profile pearson 0.363930868049902
+EMA Across peak pearson fp 0.4825893200470634
+EMA Across peak pearson cov 0.6961095271085308
+best loss 1.4416661755792026
+ - (Training) 15 Loss: 1.35
+ - (Validation) 15                         Loss: 1.45276
+Profile pearson 0.35643540351597863
+Across peak pearson fp 0.4798920653782613
+Across peak pearson cov 0.7202586325731761
+ - (Validation) 15                 Loss: 1.43802
+EMA Profile pearson 0.3643277602750868
+EMA Across peak pearson fp 0.4836789459926028
+EMA Across peak pearson cov 0.7009585971481626
+best loss 1.4380170553188605
+ - (Training) 16 Loss: 1.34
+ - (Validation) 16                         Loss: 1.46614
+Profile pearson 0.3625389945296718
+Across peak pearson fp 0.47663036790984314
+Across peak pearson cov 0.7170571030582136
+ - (Validation) 16                 Loss: 1.43461
+EMA Profile pearson 0.36488568451235753
+EMA Across peak pearson fp 0.48471430424338163
+EMA Across peak pearson cov 0.7056057798974428
+best loss 1.4346138109714526
+ - (Training) 17 Loss: 1.33
+ - (Validation) 17                         Loss: 1.45117
+Profile pearson 0.3575068280641577
+Across peak pearson fp 0.48020995611272205
+Across peak pearson cov 0.7212987420021328
+ - (Validation) 17                 Loss: 1.43249
+EMA Profile pearson 0.36437132391799937
+EMA Across peak pearson fp 0.4850162021815457
+EMA Across peak pearson cov 0.7097575943357656
+best loss 1.4324870027344803
+ - (Training) 18 Loss: 1.32
+ - (Validation) 18                         Loss: 1.45936
+Profile pearson 0.35679477730153
+Across peak pearson fp 0.4768068846382496
+Across peak pearson cov 0.72993333703296
+ - (Validation) 18                 Loss: 1.43116
+EMA Profile pearson 0.3645624540943111
+EMA Across peak pearson fp 0.48570581473763697
+EMA Across peak pearson cov 0.713732678357863
+best loss 1.4311649511600364
+ - (Training) 19 Loss: 1.31
+ - (Validation) 19                         Loss: 1.45590
+Profile pearson 0.3456788555721039
+Across peak pearson fp 0.46969823150126855
+Across peak pearson cov 0.7275329801062034
+ - (Validation) 19                 Loss: 1.42941
+EMA Profile pearson 0.3644850873664252
+EMA Across peak pearson fp 0.4861426693704565
+EMA Across peak pearson cov 0.7175528197326704
+best loss 1.4294069435796126
+ - (Training) 20 Loss: 1.30
+ - (Validation) 20                         Loss: 1.47818
+Profile pearson 0.36492184580855747
+Across peak pearson fp 0.4773104552116864
+Across peak pearson cov 0.7149542064250921
+ - (Validation) 20                 Loss: 1.42871
+EMA Profile pearson 0.36417148994806137
+EMA Across peak pearson fp 0.4862643361447762
+EMA Across peak pearson cov 0.720490753037168
+best loss 1.4287073083699042
+ - (Training) 21 Loss: 1.29
+ - (Validation) 21                         Loss: 1.46213
+Profile pearson 0.3453679458414776
+Across peak pearson fp 0.46672804406703483
+Across peak pearson cov 0.7111105249324866
+ - (Validation) 21                 Loss: 1.42746
+EMA Profile pearson 0.36395192449399083
+EMA Across peak pearson fp 0.4863261764699191
+EMA Across peak pearson cov 0.7232850335504838
+best loss 1.4274560583048854
+ - (Training) 22 Loss: 1.28
+ - (Validation) 22                         Loss: 1.47662
+Profile pearson 0.34215576000817616
+Across peak pearson fp 0.46725035802887865
+Across peak pearson cov 0.7328116133733732
+ - (Validation) 22                 Loss: 1.42793
+EMA Profile pearson 0.36334461471095586
+EMA Across peak pearson fp 0.4860230069345212
+EMA Across peak pearson cov 0.7255874493161236
+ - (Training) 23 Loss: 1.28
+ - (Validation) 23                         Loss: 1.46792
+Profile pearson 0.3311660836993734
+Across peak pearson fp 0.4569894540399705
+Across peak pearson cov 0.7207680192678536
+ - (Validation) 23                 Loss: 1.42767
+EMA Profile pearson 0.36302547512147026
+EMA Across peak pearson fp 0.48588102595448585
+EMA Across peak pearson cov 0.727408064626268
+ - (Training) 24 Loss: 1.27
+ - (Validation) 24                         Loss: 1.49540
+Profile pearson 0.3522994043426784
+Across peak pearson fp 0.4684559193410859
+Across peak pearson cov 0.7243798570092645
+ - (Validation) 24                 Loss: 1.42750
+EMA Profile pearson 0.3630185741903933
+EMA Across peak pearson fp 0.48597028763829864
+EMA Across peak pearson cov 0.7294594264714583
+ - (Training) 25 Loss: 1.26
+ - (Validation) 25                         Loss: 1.48372
+Profile pearson 0.32943096553262574
+Across peak pearson fp 0.4578485679178226
+Across peak pearson cov 0.728092294745298
+ - (Validation) 25                 Loss: 1.42823
+EMA Profile pearson 0.3630102779071883
+EMA Across peak pearson fp 0.4859663897385134
+EMA Across peak pearson cov 0.7310505540434644
+ - (Training) 26 Loss: 1.25
+ - (Validation) 26                         Loss: 1.48306
+Profile pearson 0.34573908834577166
+Across peak pearson fp 0.4628239072175609
+Across peak pearson cov 0.7335643510648757
+ - (Validation) 26                 Loss: 1.42865
+EMA Profile pearson 0.3624947375459125
+EMA Across peak pearson fp 0.48563451366738725
+EMA Across peak pearson cov 0.7324457094279857
+Early stopping
+loaded best model
+Using preset, the following parameters would be overwritten
+using wrapper: count
+using nth_output: 0
+using decay: 0.85
+Launching the following command now (no action needed from your side)
+seq2print_attr --pt /net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print/model/PBMC_bulkATAC_Bcell_0_fold0-ghastly-mummy-1.pt --peaks /net/talisker/home/benos/mae117/Documents/careers/opalia/the-milk-man/seq2print/seq2print_cleaned_narrowPeak.bed --method shap_hypo --wrapper count --nth_output 0 --gpus 0 --genome hg38 --decay 0.85 --save_key deepshap --overwrite --model_norm count --sample 30000 --save_norm
+signal_window 1000 dna_len 1840
+input summits 296069
+valid summits after trimming edges 296069
+fetching coverage: 100%|██████████████| 296069/296069 [00:57<00:00, 5137.26it/s]
+(296069, 1)
+coverage min max 649.22534 1529.1488
+valid summits after min/max count filter 296069
+Caching sequences: 100%|██████████████| 296069/296069 [02:41<00:00, 1827.70it/s]
+working on :   0%|                                        | 0/1 [02:47<?, ?it/s]
+ 15%|█████▍                              | 4569/30000 [15:46<1:27:23,  4.85it/s]

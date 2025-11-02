@@ -26,12 +26,20 @@ data/SRR33155822
 
 # bovine implementations
 data/custom_genomes
-data/bias.bw
-data/bias.h5
+data/bias.bosTau9.h5
+data/bias.bosTau9.bw
+data/bias.ars-ucd.h5
+data/bias.ars-ucd.bw
+data/milk-sites.bed
+data/regions_filt.bed
 peaks
 profiles
-
+Mammary_bulkATAC_experiments_*
+model
+temp
+wandb
 
 # Tutorial stuff
+data/tutorial
 fragments
 seq2print

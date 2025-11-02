@@ -4,7 +4,7 @@
 # * Purpose: To create a file structure that makes sense
 # for the data we will be using
 #
-# * Requires: "the-milk-man" conda env I made for this; I
+# * Requires: "tmm" conda env I made for this; I
 # will make the yaml availble on the GitHub
 
 # i wanted to create more robust bash scripts. there are a 
@@ -17,10 +17,10 @@ set -ueo pipefail
 
 #===== Setup
 printf "(1) Checking if conda is activate...\n"
-if [[ $CONDA_DEFAULT_ENV == "the-milk-man" ]]; then
+if [[ $CONDA_DEFAULT_ENV == "tmm" ]]; then
 	printf "\t--> The conda env you need is already activate, good...\n\n"
-elif [[ $CONDA_DEFAULT_ENV != "the-milk-man" ]]; then
-	printf "\t--> You need to activate 'the-milk-man'.\n\n"
+elif [[ $CONDA_DEFAULT_ENV != "tmm" ]]; then
+	printf "\t--> You need to activate 'tmm'.\n\n"
 	exit 1
 else
 	printf "\t--> Something is wrong...\n\n"

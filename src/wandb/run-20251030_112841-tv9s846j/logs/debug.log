@@ -19,3 +19,5 @@ config: {'peaks': 'seq2print_cleaned_narrowPeak.bed', 'signals': 'PBMC_bulkATAC_
 2025-10-30 11:28:42,724 INFO    MainThread:48712 [wandb_run.py:_redirect():2426] Wrapping output streams.
 2025-10-30 11:28:42,724 INFO    MainThread:48712 [wandb_run.py:_redirect():2449] Redirects installed.
 2025-10-30 11:28:42,738 INFO    MainThread:48712 [wandb_init.py:init():1076] run started, returning control to user process
+2025-10-30 16:14:43,745 INFO    wandb-AsyncioManager-main:48712 [service_client.py:_forward_responses():80] Reached EOF.
+2025-10-30 16:14:43,745 INFO    wandb-AsyncioManager-main:48712 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.
