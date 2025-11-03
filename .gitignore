@@ -30,14 +30,15 @@ data/bias.bosTau9.h5
 data/bias.bosTau9.bw
 data/bias.ars-ucd.h5
 data/bias.ars-ucd.bw
-data/milk-sites.bed
 data/regions_filt.bed
+data/cell_peak.h5ad
 peaks
 profiles
 Mammary_bulkATAC_experiments_*
 model
 temp
 wandb
+*.bigwig
 
 # Tutorial stuff
 data/tutorial
